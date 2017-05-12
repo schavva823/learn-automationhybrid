@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="IE"/>
+  <test name="firefoxtestcase(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testcases.VerifyHomePage">
+        <methods>
+          <include name="testhomepage"/>
+        </methods>
+      </class> <!-- testcases.VerifyHomePage -->
+    </classes>
+  </test> <!-- firefoxtestcase(failed) -->
+  <test name="chrometestcase(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testcases.VerifyHomePage">
+        <methods>
+          <include name="testhomepage"/>
+        </methods>
+      </class> <!-- testcases.VerifyHomePage -->
+    </classes>
+  </test> <!-- chrometestcase(failed) -->
+  <test name="ietestcase(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="testcases.VerifyHomePage">
+        <methods>
+          <include name="testhomepage"/>
+        </methods>
+      </class> <!-- testcases.VerifyHomePage -->
+    </classes>
+  </test> <!-- ietestcase(failed) -->
+</suite> <!-- Failed suite [Suite] -->
